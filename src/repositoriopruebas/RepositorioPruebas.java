@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package repositoriopruebas;
-
+import java.util.Scanner;
 /**
  *
  * @author dam107
@@ -15,7 +15,14 @@ public class RepositorioPruebas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        int i=0;
+        int j=0;
+        
+        i = sc.nextInt();
+        j = sc.nextInt();
+        
+        System.out.println("Suma: "+(i+j));
     }
     
 }
