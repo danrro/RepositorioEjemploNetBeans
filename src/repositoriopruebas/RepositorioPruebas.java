@@ -16,6 +16,11 @@ public class RepositorioPruebas {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        int i=0;
+        int j=0;
+        
+        System.out.println(i+j);
     }
     
 }
