@@ -22,7 +22,7 @@ public class RepositorioPruebas {
         i = sc.nextInt();
         j = sc.nextInt();
         
-        System.out.println("Suma: "+(i+j));
+        System.out.println("Multi: "+(i*j));
     }
     
 }
